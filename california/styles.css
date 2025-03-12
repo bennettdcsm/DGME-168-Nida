@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+    margin: 10px;
+    line-height: 1.5em;
+}
+
+a:hover{
+    color: rgb(40, 178, 40);
+}
+
+/* Nav styles - Floating starts here */
+#navigation {
+    padding-left: 5px;
+    padding-top: 20px;
+    width: 100px;
+    height: 320px;
+    background-color: rgb(227, 227, 227);
+    float: left;
+}
+
+/* Left text */
+.left {
+    width: 30%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* image in the middle */
+.middle {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+.middle img {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* right text */
+.right {
+    width: 30%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#footer {
+    clear: left;
+    background-color: black;
+    color: white;
+    padding: 2.5px;
+    text-align: center;
+}
+
