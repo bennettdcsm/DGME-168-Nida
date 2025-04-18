@@ -1,0 +1,322 @@
+
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.eb-garamond {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  body {
+      background-color: #191919;
+      padding-left: 3%;
+      padding-right: 3%
+  }
+  
+  .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-top: 2%;
+  }
+  
+  nav {
+      text-align: center;
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  }
+  
+  nav ul li {
+      display: inline;
+      font-size: 1.25rem;
+      margin: 0 1%;
+  }
+
+  @media (max-width: 768px) {
+    nav ul li {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav ul li {
+      font-size: .75rem;
+  }
+}
+
+  nav ul li a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: .75em .70em; 
+      text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    nav ul li a {
+      padding: .55em .50em; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav ul li a {
+      padding: .35em .30em; 
+    }
+  }
+  
+  nav ul li a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+  
+  .site-name {
+      display: flex;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 3%;
+      padding-bottom: 5%;
+  }
+  
+  h1 {
+      font-family: 'EB Garamond', serif;
+      font-size: 5rem;
+      font-weight: 200;
+      color: white;
+      margin: 0.3em 0; 
+  }
+
+  @media (max-width: 979px) {
+    h1 {
+      font-size: 2.75rem; 
+      margin: 0
+    }
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.25rem; 
+      margin: 0
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem; 
+      margin: 0
+    }
+  }
+
+  h2 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      font-size: 1.2rem;
+      color: white;
+      margin: 0.3em 0; 
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: .75rem; 
+    }
+  }
+
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+    margin: 0.3em 0; 
+}
+
+  p {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      font-size: 1rem;
+      color: black;
+      margin: 0.3em 0; 
+  }
+
+  .bold-text {
+    font-weight: 400;
+  }
+  
+  hr {
+      width: 10%;
+      border: 0.050em solid white;
+      margin: 3em 0; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: Georgia, serif;
+    line-height: 1.5em;
+  }
+ 
+  #cards {
+    border: .5px solid whitesmoke;
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    padding: 30px;
+  }
+
+  section {
+    background: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+  }
+ 
+  .price {
+    font-weight: bold;
+    background: #191919;
+    padding: 5px;
+    width: auto;
+    text-align: center;
+    margin-top: auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: .85rem;
+    color: whitesmoke;
+    align-items: flex-end;
+  }
+
+  .photo {
+    order: -1;
+  }
+
+  img {
+  width: 100%;
+  }
+
+  #icon {
+    width: 20px;
+  }
+
+  .footer-text {
+    font-size: .75rem;
+    color: whitesmoke;
+    line-height: 17.5px;
+  }
+  
+  .about-questions {
+    color: whitesmoke;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.25rem;
+    text-align: justify;
+  }
+
+  .about-answers {
+    color: whitesmoke;
+    font-size: .90rem;
+    text-align: justify;
+  }
+
+  #question-card-1 {
+    width: 100%;
+    height: auto;
+    background-color: #202020;
+    padding: 50px 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-top: .25px solid whitesmoke;
+    border-right: .25px solid whitesmoke;
+    border-left: .25px solid whitesmoke;
+  }
+
+  #question-card-2 {
+    width: 100%;
+    height: auto;
+    background-color: #202020;
+    padding: 50px 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2C2C;
+    border-right: .25px solid whitesmoke;
+    border-left: .25px solid whitesmoke;
+  }
+
+  #question-card-3 {
+    width: 100%;
+    height: auto;
+    background-color: #202020;
+    padding: 50px 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-bottom: .25px solid whitesmoke;
+    border-right: .25px solid whitesmoke;
+    border-left: .25px solid whitesmoke;
+  }
+
+  #about-description {
+    color: whitesmoke;
+    text-align: justify;
+    padding: 0 95px;
+  }
+
+  @media (max-width: 768px) {
+    #about-description {
+      padding: 50px 45px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #about-description {
+      padding: 50px 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #question-card-1, #question-card-2, #question-card-3 {
+      padding: 50px 50px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #question-card-1, #question-card-2, #question-card-3 {
+      padding: 50px 35px;
+    }
+  }
+
+  
