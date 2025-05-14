@@ -864,11 +864,11 @@ margin-bottom: 0.5em;
 /* Mobile (max-width: 767px) */
 @media (max-width: 767px) {
   .contact-cards {
-    margin: 0 0;
+    margin: 0 5%;
   }
 
   .contact-card {
-    padding: 15px;
+    padding: 20px;
   }
 
   .contact-form input,
