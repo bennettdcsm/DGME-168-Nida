@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lorem Ipsum</title>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');</style>
+</head>
+
+<body>
+
+    <nav id="navbar">
+      <a href="index.html" class="logo">Nida Apa</a>
+      <button id="menu-toggle">&#9776;</button>
+      <div id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+
+    <div id="main-text">
+        <h1>I’m so glad you’re here!</h1>
+        <p>Hi, I am Nida! 👩🏻 <br> Take a look around to explore the work I’ve created with passion, creativity, and care.</p>
+    </div>
+
+    <div class="img-container" >
+      <img src="images/leaves.jpg" alt="leaves">
+    </div>
+
+    <br>
+    <br>
+
+    <h2 id="skillset-text">My Skillset</h2>
+
+    <div class="skill-cards">
+      <div class="skill-card">
+        <h3>Responsive Web Design</h3>
+        <p>I bring ideas to life through clean, responsive websites using HTML, CSS, WordPress, and Figma. I focus on structure, clarity, and intuitive layouts that look great on any screen. My goal is to design with purpose and make every web experience seamless.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>UI / UX Design</h3>
+        <p>I design intuitive, engaging apps from wireframes to polished prototypes. Using Figma and Illustrator, I craft experiences that feel natural and easy to navigate, always guided by user behavior and real needs.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Graphic Design</h3>
+        <p>I blend strategy and creativity to create bold, scroll-stopping visuals from logos and print to Zoom layouts and social content. With Illustrator and Canva, I give each idea personality and lasting impact.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Video Editing</h3>
+        <p>Skilled in motion graphics and editing with Adobe Premiere Pro. I create dynamic content from concept to export handling color, transitions, graphics, and sound for a polished finish.</p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <section class="background">
+      <div class="tools-cards">
+        <div class="tools-description-card">
+            <h3>My Capabilities at a Glance</h3>
+            <p>Here is a snapshot of the tools and skills I bring to every project. From wireframing and prototyping to working across platforms like Figma, WordPress, and HTML/CSS — I’m all about crafting clean, effective, and human-centered design.</p>
+        </div>
+
+        <div class="tools-display-card">
+            <div class="columns-wrapper">
+              <!-- Column 1 -->
+              <div class="column">
+                <div class="progress-group">
+                  <div class="label">Wireframing</div>
+                  <div class="progress-bar"><div class="progress-fill w-85"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Visual Design</div>
+                  <div class="progress-bar"><div class="progress-fill w-100"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Prototyping</div>
+                  <div class="progress-bar"><div class="progress-fill w-40"></div></div>
+                </div>
+              </div>
+          
+              <!-- Column 2 -->
+              <div class="column">
+                <div class="progress-group">
+                  <div class="label">HTML & CSS</div>
+                  <div class="progress-bar"><div class="progress-fill w-85"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Figma</div>
+                  <div class="progress-bar"><div class="progress-fill w-70"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Wordpress</div>
+                  <div class="progress-bar"><div class="progress-fill w-85"></div></div>
+                </div>
+              </div>
+            </div>
+        </div>   
+      </div>
+    </section>
+
+    <center>
+      <blockquote>Design is not just what it looks like and feels like.<br>Design is how it works.</blockquote>
+    </center>
+
+    <br>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+  
+        toggle.addEventListener('click', () => {
+          navLinks.classList.toggle('show');
+        });
+      });
+    </script>
+  
+
+    
+    
+</body>
+
+</html>
