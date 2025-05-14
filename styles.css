@@ -817,7 +817,8 @@ margin-bottom: 0.5em;
   
     .about-card,
     .about-photo {
-      width: 90%;
+      width: 100%;
+      box-sizing: border-box;
     }
   
     .about-photo {
