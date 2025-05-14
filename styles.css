@@ -864,7 +864,7 @@ margin-bottom: 0.5em;
 /* Mobile (max-width: 767px) */
 @media (max-width: 767px) {
   .contact-cards {
-    margin: 0 4%;
+    margin: 0 0;
   }
 
   .contact-card {
