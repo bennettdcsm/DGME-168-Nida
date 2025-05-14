@@ -1,81 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+  <title>Lorem Ipsum</title>
   <meta charset="UTF-8">
-  <title>DGME 168 - Nida Apa</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #f9f5ff;
-      color: #704f6d;
-      margin: 0;
-      padding: 40px 20px;
-    }
-
-    .container {
-      max-width: 750px;
-      margin: auto;
-      background-color: #ffffff;
-      padding: 40px;
-      border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-    }
-
-    h1 {
-      font-size: 2.5em;
-      color: #734f6f;
-      margin-bottom: 0.2em;
-    }
-
-    h2 {
-      font-size: 1.8em;
-      color: #734f6f;
-      margin-top: 2em;
-      margin-bottom: 0.5em;
-    }
-
-    p {
-      font-size: 1.05em;
-      line-height: 1.7;
-      margin-bottom: 1.5em;
-      color: #333;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    ul li {
-      margin-bottom: 12px;
-    }
-
-    a {
-      text-decoration: none;
-      color: #ad84a9;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
-
-    a:hover {
-      color: #734f6f;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');</style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>DGME 168 – Nida Apa</h1>
-    <p>Welcome to my class project portfolio for DGME 168! This is a space where I share my journey through HTML and CSS, one project at a time.</p>
 
-    <p>Each project reflects what I've learned and how I'm growing as a web designer. I'm always excited to showcase my work, whether it's tackling a design challenge or creating something fun and engaging.</p>
+    <nav id="navbar">
+      <a href="index.html" class="logo">Nida Apa</a>
+      <button id="menu-toggle">&#9776;</button>
+      <div id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
 
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="/DGME-168-Nida/california/index.html">🌴 California Adventure</a></li>
-      <li><a href="/DGME-168-Nida/Flexbox Layout/index.html">📐 Flexbox Layout</a></li>
-      <li><a href="/DGME-168-Nida/Grid Layout/index.html">🧩 Grid Layout</a></li>
-    </ul>
-  </div>
+    <div id="main-text">
+        <h1>I’m so glad you’re here!</h1>
+        <p>Hi, I am Nida! 👩🏻 <br> Take a look around to explore the work I’ve created with passion, creativity, and care.</p>
+    </div>
+
+    <div class="img-container" >
+      <img src="/images/leaves.jpg" alt="leaves">
+    </div>
+
+    <br>
+    <br>
+
+    <h2 id="skillset-text">My Skillset</h2>
+
+    <div class="skill-cards">
+      <div class="skill-card">
+        <h3>Responsive Web Design</h3>
+        <p>I bring ideas to life through clean, responsive websites using HTML, CSS, WordPress, and Figma. I focus on structure, clarity, and intuitive layouts that look great on any screen. My goal is to design with purpose and make every web experience seamless.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>UI / UX Design</h3>
+        <p>I design intuitive, engaging apps from wireframes to polished prototypes. Using Figma and Illustrator, I craft experiences that feel natural and easy to navigate, always guided by user behavior and real needs.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Graphic Design</h3>
+        <p>I blend strategy and creativity to create bold, scroll-stopping visuals from logos and print to Zoom layouts and social content. With Illustrator and Canva, I give each idea personality and lasting impact.</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Video Editing</h3>
+        <p>Skilled in motion graphics and editing with Adobe Premiere Pro. I create dynamic content from concept to export handling color, transitions, graphics, and sound for a polished finish.</p>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <section class="background">
+      <div class="tools-cards">
+        <div class="tools-description-card">
+            <h3>My Capabilities at a Glance</h3>
+            <p>Here is a snapshot of the tools and skills I bring to every project. From wireframing and prototyping to working across platforms like Figma, WordPress, and HTML/CSS — I’m all about crafting clean, effective, and human-centered design.</p>
+        </div>
+
+        <div class="tools-display-card">
+            <div class="columns-wrapper">
+              <!-- Column 1 -->
+              <div class="column">
+                <div class="progress-group">
+                  <div class="label">Wireframing</div>
+                  <div class="progress-bar"><div class="progress-fill w-85"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Visual Design</div>
+                  <div class="progress-bar"><div class="progress-fill w-100"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Prototyping</div>
+                  <div class="progress-bar"><div class="progress-fill w-40"></div></div>
+                </div>
+              </div>
+          
+              <!-- Column 2 -->
+              <div class="column">
+                <div class="progress-group">
+                  <div class="label">HTML & CSS</div>
+                  <div class="progress-bar"><div class="progress-fill w-85"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Figma</div>
+                  <div class="progress-bar"><div class="progress-fill w-70"></div></div>
+                </div>
+
+                <div class="progress-group">
+                  <div class="label">Wordpress</div>
+                  <div class="progress-bar"><div class="progress-fill w-85"></div></div>
+                </div>
+              </div>
+            </div>
+        </div>   
+      </div>
+    </section>
+
+    <center>
+      <blockquote>Design is not just what it looks like and feels like.<br>Design is how it works.</blockquote>
+    </center>
+
+    <br>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+  
+        toggle.addEventListener('click', () => {
+          navLinks.classList.toggle('show');
+        });
+      });
+    </script>
+  
+
+    
+    
 </body>
+
 </html>

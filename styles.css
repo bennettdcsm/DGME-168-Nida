@@ -1,0 +1,1022 @@
+* {
+    font-family: "Inter";
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin-bottom: 1em; 
+    font-size: 1.25rem;
+}
+
+h3 {
+    margin-bottom: 1em; 
+    font-size: 1rem;
+}
+  
+p {
+    line-height: 1.5; 
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.img-container {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 25px;
+  margin: 0 16%;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.tools-description-card, .tools-display-card {
+flex: 1;
+}
+
+#skillset-text {
+    margin: 0 16%;
+    padding-top: 4%;
+}
+
+.skill-cards {
+    margin: 2% 16%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+border: 0.5px solid black;
+border-radius: 15px;
+padding: 20px;
+flex: 1;
+}
+
+.skill-card p {
+    font-size: 0.75rem;
+}
+
+
+.background {
+    width: 100%;
+    background-color: #d0d7cf;
+    display: flex;
+    align-items: center;
+    margin-top: 3%
+}
+
+.tools-cards {
+    margin: 5% 16%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px
+}
+
+.tools-description-card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+}
+
+.tools-display-card {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+}
+
+.tools-card p {
+    font-size: 0.75rem;
+}
+
+.columns-wrapper {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .progress-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .label {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .progress-bar {
+    background-color: #eee;
+    border-radius: 999px;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #333;
+    border-radius: 999px;
+  }
+  
+  .w-70 { width: 70%; }
+  .w-50 { width: 50%; }
+  .w-90 { width: 90%; }
+  .w-85 { width: 85%; }
+  .w-60 { width: 60%; }
+  .w-40 { width: 40%; }
+  .w-100 { width: 100%; }
+
+  blockquote {
+    font-style: italic;
+    margin: 4%;
+    line-height: 50px;
+    font-size: 1.5rem;
+  }
+  
+.background-about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; 
+  gap: 50px;
+  margin: 0 16%;
+}
+
+.about-card {
+  flex: 1;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-photo {
+  flex: 1;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-card p {
+  font-size: .95rem
+}
+
+
+.btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #d0d7cf;
+  color: #333;
+  border-radius: 999px;
+  font-size: .95rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  border: none; 
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: white;
+}
+
+  hr {
+    margin: 0 16%;
+  }
+
+#portfolio-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 3% 16%;
+  }
+  
+  #portfolio-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 200px
+    
+  }
+  
+  .portfolio-items {
+    margin: 5em 0 5em 0  }
+    
+  #portfolio-card h3 {
+    white-space: nowrap;
+    font-size: 1.15rem;
+    margin: 0;
+  }
+  
+  #portfolio-card p {
+    font-size: 0.875rem;
+    max-width: 40%;
+    text-align: justify;
+    align-self: flex-end;
+  }
+  
+  .portfolio-img {
+    width: auto;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 0 16%;
+  }
+  
+  .portfolio-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+ 
+  .portfolio-items {
+    margin-bottom: 10em
+  }
+
+
+
+  .resume-items {
+    margin-bottom: 10em;
+    margin: 3% 16%;
+  }
+
+  #resume-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 3% 16%;
+  }
+
+  h4 {
+    font-size: .90rem
+  }
+
+.resume-cards {
+  margin: 0 16%;
+}
+
+.resume-card {
+  display: flex;
+  flex-direction: column; 
+  border: 0.5px solid black;
+  border-radius: 15px;
+  padding: 30px 30px 15px 30px;
+}
+
+.resume-card > .resume-card-header {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%; 
+}
+
+.resume-card > h4,
+.resume-card > p {
+  margin: 0;
+}
+
+.resume-card ul {
+  list-style-type: style type;
+  padding-left: 1rem
+}
+
+li {
+  font-size: .90rem;
+  padding: 0.25rem
+}
+
+h4 {
+  font-size: 0.90rem;
+  margin: 0;
+}
+
+.job-info {
+  font-size: .90rem;
+}
+
+.resume-item {
+  margin: 3% 16%;  
+}
+
+.categories {
+  margin-bottom: 5rem;
+}
+
+
+
+.contact-cards {
+  margin: 0 16%;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-footer {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #000;
+  line-height: 1.5;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid #333;
+}
+
+body {
+  line-height: 1.6;
+}
+
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: black;
+}
+
+#menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+#main-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6em 18em;
+  text-align: center;
+  line-height: auto;
+}
+
+#main-text-margin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 6em 18em 2em 18em;
+  text-align: center;
+  line-height: auto;
+}
+
+#main-text h1,
+#main-text-margin h1 {
+font-size: 1.50rem;
+margin-bottom: 1em;
+}
+
+#main-text p,
+#main-text-margin p {
+font-size: .95rem;
+line-height: 1.5;
+margin-bottom: 0.5em;
+}
+
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 1rem;
+  }
+
+  #navbar {
+    padding: 1.5rem 1.5rem;
+  }
+
+  #menu-toggle {
+    display: block;
+  }
+
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 1.5rem;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #nav-links.show {
+    display: flex;
+  }
+}
+
+/* --- TABLET: 768px – 1024px --- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  #navbar {
+    padding: 1.5rem 2rem;
+  }
+
+  #menu-toggle {
+    display: block;
+  }
+
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #nav-links.show {
+    display: flex;
+  }
+}
+
+/* --- DESKTOP: ≥ 1025px --- */
+@media (min-width: 1025px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  #navbar {
+    padding: 2rem 8rem;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  #nav-links {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    gap: 1.5rem;
+    border: none;
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+/* === TABLET (768px – 1024px) === */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main-text {
+    margin: 4em 4em;
+  }
+
+  #main-text-margin {
+    padding: 4em 4em 2em 4em;
+  }
+
+  #main-text h1,
+  #main-text-margin h1 {
+    font-size: 1.35rem;
+  }
+
+  #main-text p,
+  #main-text-margin p {
+    font-size: 0.90rem;
+  }
+}
+
+
+/* === MOBILE (≤ 767px) === */
+@media (max-width: 767px) {
+  #main-text {
+    margin: 3em 1.5em;
+  }
+
+  #main-text-margin {
+    padding: 3em 1.5em 1em 1.5em;
+  }
+
+  #main-text h1,
+  #main-text-margin h1 {
+    font-size: 1.15rem;
+  }
+
+  #main-text p,
+  #main-text-margin p {
+    font-size: 0.85rem;
+  }
+}
+
+/* === TABLET (768px–1024px) === */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .img-container {
+    height: 250px;
+    margin: 0 8%;
+  }
+}
+
+/* === MOBILE (≤767px) === */
+@media (max-width: 767px) {
+  .img-container {
+    height: 200px;
+    margin: 0 4%;
+  }
+}
+
+/* === Tablet === */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #skillset-text {
+    margin: 0 8% 2% 8%;
+    font-size: 1.15rem;
+  }
+}
+
+/* === Mobile === */
+@media (max-width: 767px) {
+  #skillset-text {
+    margin: 0 4% 4% 4%;
+    font-size: 1rem;
+  }
+}
+
+/* === Tablet === */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skill-cards {
+    flex-direction: column;
+    margin: 2% 8%;
+    gap: 20px;
+  }
+
+  .skill-card {
+    width: 100%;
+  }
+}
+
+/* === Mobile === */
+@media (max-width: 767px) {
+  .skill-cards {
+    flex-direction: column;
+    margin: 2% 4%;
+    gap: 15px;
+  }
+
+  .skill-card {
+    width: 100%;
+  }
+}
+
+/* === Medium Screens: 1025px - 1395px === */
+@media (min-width: 1025px) and (max-width: 1395px) {
+  .skill-cards {
+    gap: 20px; 
+    flex-wrap: wrap;
+  }
+
+  .skill-card {
+    flex: 1 1 45%; 
+  }
+}
+
+/* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tools-cards {
+    flex-direction: column;
+    margin: 5% 8%; 
+  }
+
+  .tools-description-card,
+  .tools-display-card {
+    width: 100%;
+  }
+
+  .tools-description-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .tools-description-card p {
+    font-size: 0.875rem;
+  }
+}
+
+/* Mobile (below 768px) */
+@media (max-width: 767px) {
+  .tools-cards {
+    flex-direction: column;
+    margin: 5% 5%; 
+  }
+
+  .tools-description-card,
+  .tools-display-card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .tools-description-card h3 {
+    font-size: 1rem;
+  }
+
+  .tools-description-card p {
+    font-size: 0.8rem;
+  }
+
+  .columns-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .columns-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .progress-group:last-child {
+    margin-bottom: 0; 
+  }
+}
+
+  
+  @media screen and (max-width: 1024px) {
+    blockquote {
+      font-size: 1.3rem !important;
+      line-height: 1.6 !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    blockquote {
+      font-size: 1.1rem !important;
+      line-height: 1.5 !important;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .about-cards {
+      flex-direction: column;
+      margin: 6% 8%;
+      gap: 30px;
+    }
+  
+    .about-card,
+    .about-photo {
+      width: 100%;
+    }
+  
+    .about-photo {
+      padding: 0;
+    }
+  
+    .about-photo img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      object-fit: cover;
+      object-position: 50% 30%;
+      border-radius: 15px;
+      display: block;
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+    .about-cards {
+      flex-direction: column;
+      margin: 8% 5%;
+      gap: 20px;
+    }
+  
+    .about-card,
+    .about-photo {
+      width: 100%;
+    }
+  
+    .about-photo {
+      padding: 0;
+    }
+  
+    .about-photo img {
+      width: 100%;
+      height: auto;
+      max-height: 350px; 
+      object-fit: cover; 
+      object-position: 50% 30%;
+      border-radius: 15px;
+      display: block;
+    }
+  }
+  
+  /* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-cards {
+    margin: 0 8%;
+  }
+
+  .contact-card {
+    padding: 25px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+
+  .contact-form label {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+  .contact-cards {
+    margin: 0 5%;
+  }
+
+  .contact-card {
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+
+  .contact-form label {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 10px 18px;
+  }
+}
+
+/* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .resume-cards {
+    margin: 0 8%;
+  }
+
+  .resume-item {
+    margin: 3% 8%;
+  }
+
+  .resume-card {
+    padding: 25px 25px 15px 25px;
+  }
+
+  .resume-card h4 {
+    font-size: 0.875rem;
+  }
+
+  .resume-card .job-info,
+  .resume-card li {
+    font-size: 0.85rem;
+  }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+  .resume-cards {
+    margin: 0 4%;
+  }
+
+  .resume-item {
+    margin: 3% 4%;
+  }
+
+  .resume-card {
+    padding: 20px 20px 15px 20px;
+  }
+
+  .resume-card h4 {
+    font-size: 0.85rem;
+  }
+
+  .resume-card .job-info,
+  .resume-card li {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .resume-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem; 
+  }
+
+  .resume-card-header h4,
+  .resume-card-header p {
+    text-align: left;
+    width: 100%;
+  }
+}
+
+/* --- Tablet (768px to 1024px) --- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #portfolio-cards {
+    margin: 3% 8%;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #portfolio-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #portfolio-card p {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .portfolio-img {
+    margin: 0 8%;
+    height: 400px;
+  }
+}
+
+/* --- Mobile (up to 767px) --- */
+@media (max-width: 767px) {
+  #portfolio-cards {
+    margin: 3% 4%;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #portfolio-card {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #portfolio-card h3 {
+    font-size: 1rem;
+  }
+
+  #portfolio-card p {
+    font-size: 0.85rem;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .portfolio-img {
+    margin: 0 4%;
+    height: 250px;
+  }
+}
+
+/* Default (Desktop) */
+.portfolio-items {
+  margin: 4em 0;
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .portfolio-items {
+    margin: 3em 0;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .portfolio-items {
+    margin: 2em 0;
+  }
+}
